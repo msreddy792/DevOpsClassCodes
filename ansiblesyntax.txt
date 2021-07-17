@@ -1,0 +1,2 @@
+ansiblePlaybook credentialsId: 'acm', disableHostKeyChecking: true, installation: 'myansible', inventory: 'dev.inv', playbook: 'playbookdocker.yml'
+ansiblePlaybook credentialsId: '1ojul', disableHostKeyChecking: true, installation: 'myansible', inventory: 'dev.inv', playbook: 'playbookdocker.yml'
