@@ -1,2 +1,17 @@
 ansiblePlaybook credentialsId: 'acm', disableHostKeyChecking: true, installation: 'myansible', inventory: 'dev.inv', playbook: 'playbookdocker.yml'
 ansiblePlaybook credentialsId: '1ojul', disableHostKeyChecking: true, installation: 'myansible', inventory: 'dev.inv', playbook: 'playbookdocker.yml'
+
+Creation of a Job:
+************************************
+
+#1 Jenkins --> New Item --> Job1 --> Build --> shell comand---> echo 'this is my first job'
+
+Save --> click on Build Now  --> click on build number --> click on Console to see output
+
+#2 Jenkins --> New Item --> Job2 --> Build --> shell comand---> 
+date >> /tmp/date.txt
+echo 'this is my second job'
+
+Save --> click on Build Now  --> click on build number --> click on Console to see output
+
+***********************************
